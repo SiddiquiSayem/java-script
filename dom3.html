@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="hhh" class="c1">this is dom document oriented model</h1>
+    <h1>this is dom document oriented model</h1>
+    <h1>this is dom document oriented model</h1>
+    <p class="c1">this is p tag </p>
+    <h1>this is dom document oriented model</h1>
+    <h1>this is dom document oriented model</h1>
+    <h1>this is dom document oriented model</h1>
+    <p>this is not p tag</p>
+    <h1>this is dom document oriented model</h1>
+    <h1>this is dom document oriented model</h1>
+    
+    <script>
+        obj=document.getElementById('hhh');
+        obj=document.getElementsByClassName("c1");
+        for(i=0;i<obj.length;i++){
+            obj[i].innerHTML="change all h1 tag"
+            obj[i].style.background="yellow"
+            }
+    </script>
+
+
+</body>
+</html>

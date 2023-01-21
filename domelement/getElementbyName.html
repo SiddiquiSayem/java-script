@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The document object</h1>
+    <h2>document.get element by Id</h2>
+    <p>Firs Name: <input name="f1name" type="text" value="sam"></p>
+    <p>Firs Name: <input name="f1name" type="text" value="junaid"></p>
+
+    <p id="obj"></p>
+
+    <script>
+       let obj=document.getElementsByName("f1name");
+       document.getElementById("obj").innerHTML=obj[0].tagName
+    </script>
+</body>
+</html>
